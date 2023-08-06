@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Upper case</title>
+</head>
+  
+<body style="background-color: antiquewhite;">
+    <script>
+        function capitalizeWords(str) {
+        let words = str.split(' ');
+        for (let i = 0; i < words.length; i++) {
+        words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+        }
+        return words.join(' ');
+        }
+
+        let str = prompt("Enter the sentence: ");
+        let capitalizedStr = capitalizeWords(str);
+        alert(capitalizedStr);
+        
+    </script>   
+</body>
+</html>

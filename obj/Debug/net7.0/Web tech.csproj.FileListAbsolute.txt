@@ -1,0 +1,15 @@
+C:\Web tech\bin\Debug\net7.0\Web tech.exe
+C:\Web tech\bin\Debug\net7.0\Web tech.deps.json
+C:\Web tech\bin\Debug\net7.0\Web tech.runtimeconfig.json
+C:\Web tech\bin\Debug\net7.0\Web tech.dll
+C:\Web tech\bin\Debug\net7.0\Web tech.pdb
+C:\Web tech\obj\Debug\net7.0\Web tech.csproj.AssemblyReference.cache
+C:\Web tech\obj\Debug\net7.0\Web tech.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web tech\obj\Debug\net7.0\Web tech.AssemblyInfoInputs.cache
+C:\Web tech\obj\Debug\net7.0\Web tech.AssemblyInfo.cs
+C:\Web tech\obj\Debug\net7.0\Web tech.csproj.CoreCompileInputs.cache
+C:\Web tech\obj\Debug\net7.0\Web tech.dll
+C:\Web tech\obj\Debug\net7.0\refint\Web tech.dll
+C:\Web tech\obj\Debug\net7.0\Web tech.pdb
+C:\Web tech\obj\Debug\net7.0\Web tech.genruntimeconfig.cache
+C:\Web tech\obj\Debug\net7.0\ref\Web tech.dll

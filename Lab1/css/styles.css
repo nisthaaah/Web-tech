@@ -1,0 +1,28 @@
+body {
+    text-align: left;
+    background-image: linear-gradient( lavender, pink);
+}
+hr {
+    border-color: #000000;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 3px;
+    height: 2px;
+    width: 10%;
+}
+h1 {
+    color: #000000;
+    margin-left: 5px;;
+}
+table{
+    font-weight: bold;
+}
+
+.top container{
+    height: 100px;
+}
+ form{
+    height: 650px;
+ }
+
+

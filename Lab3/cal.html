@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css\style1.css">
+  
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="4" style="height: 60px;">
+            <input type="text" 
+                   style="height: 40px; 
+                          width: 210px; 
+                          color: white; 
+                          padding-left: 10px;" 
+                          id="result" disabled></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="C" onclick="clearResult()"></td>
+        <td><input type="button" value="/" onclick="addToResult('/')"></td>
+        <td><input type="button" value="%" onclick="addToResult('%')"></td>
+        <td><input type="button" value="+" onclick="addToResult('+')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" onclick="addToResult('7')"></td>
+        <td><input type="button" value="8" onclick="addToResult('8')"></td>
+        <td><input type="button" value="9" onclick="addToResult('9')"></td>
+        <td><input type="button" value="-" onclick="addToResult('-')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onclick="addToResult('4')"></td>
+        <td><input type="button" value="5" onclick="addToResult('5')"></td>
+        <td><input type="button" value="6" onclick="addToResult('6')"></td>
+        <td><input type="button" value="*" onclick="addToResult('*')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" onclick="addToResult('1')"></td>
+        <td><input type="button" value="2" onclick="addToResult('2')"></td>
+        <td><input type="button" value="3" onclick="addToResult('3')"></td>
+        <td><input type="button" value="." onclick="addToResult('.')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="0" onclick="addToResult('0')"></td>
+        <td><input type="button" value="" onclick="addToResult('')"></td>
+        <td><input type="button" value="" onclick="addToResult('')"></td>
+        <td><input type="button" value="=" onclick="calculateResult()"></td>
+      </tr>
+      
+    </table>
+    <script>
+      function addToResult(value) {
+        document.getElementById("result").value += value;
+      }
+      
+      function clearResult() {
+        document.getElementById("result").value = "";
+      }
+      
+      function calculateResult() {
+        var result = eval(document.getElementById("result").value);
+        document.getElementById("result").value = result;
+      }
+    </script>
+  </body>
+</html>

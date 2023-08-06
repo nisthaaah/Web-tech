@@ -1,0 +1,103 @@
+body{
+    margin-left: 0%;
+    background-color: rgb(249, 244, 237);
+}
+
+h2{
+    font-family: 'Segoe Script' , cursive;
+    padding: 50px 0 10px 50px;
+    color: rgb(47, 47, 47);
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    overflow: hidden;
+    display: flex; /* Displays the menu items side by side */
+  }
+
+  
+  .menu li {
+    float: left; /* Floats each menu item to the left */
+  }
+
+  .menu li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+
+  .menu li a:hover {
+    background-color: #ddd;
+  }
+
+
+  #pasta{
+    height: 380px;
+    width: 380px;
+  }
+
+  #pasta1{
+    height: 380px;
+    width: 380px;
+  }
+
+  #pasta2{
+    height: 380px;
+    width: 380px;
+  }
+
+  #pasta3{
+    height: 380px;
+    width: 380px;
+  }
+ 
+  p{
+    text-align: center;
+    font-family: 'montserrat';
+    font-weight: bold;
+  }
+
+  button{
+    height: 30px;
+    margin-left: 47%;
+    background-color: rgb(148, 199, 148);
+    color: white;
+    border-radius: 6%;
+    border-width: 0px;
+  }
+
+  .p1 {
+    overflow: hidden;
+    transition: transform .3s;
+  }
+  .p1:hover {
+    transform: scale(1.2);
+  }
+  .p2 {
+    overflow: hidden;
+    transition: transform .3s;
+  }
+  .p2:hover {
+    transform: scale(1.2);
+  }
+  .p3 {
+    overflow: hidden;
+    transition: transform .3s;
+  }
+  .p3:hover {
+    transform: scale(1.2);
+  }
+  .p4 {
+    overflow: hidden;
+    transition: transform .3s;
+  }
+  .p4:hover {
+    transform: scale(1.2);
+  }
+
+
+
+

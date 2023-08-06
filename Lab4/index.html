@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="form.js"></script>
+</head>
+
+<body style="background-color: lavenderblush;">
+    <h1>REGISTRATION FORM</h1>
+    <form name="RegForm" onsubmit="return validateForm()" method="post">
+        <table cellspacing="30px">
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" size="65" name="Name" /></td>
+            </tr>
+
+            <tr>
+                <td>Contact number: </td> 
+                <td><input type="text" size="65" name="Telephone" /></td>
+            </tr>
+
+            <tr>
+                <td>E-mail: </td> 
+                <td><input type="text" size="65" name="EMail" /></td>
+            </tr>
+            
+            <tr>
+                <td>Password: </td>  
+                <td><input type="text" size="65" name="Password" /></td>
+            </tr>
+
+            <tr>
+            <td><input type="submit" value="Submit" name="Submit" /></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
